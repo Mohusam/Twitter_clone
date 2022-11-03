@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family:  'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+/* Start Upper Nav*/
+a {
+    text-decoration: none;
+    color: #D6D9DB;
+    font-size: 2rem;
+    font-weight: 400px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px 0 10px 15% ;
+    width: 29%;
+    height: 100%;
+    position: fixed;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60%;
+    justify-content: space-between;
+
+}
+
+.nav-links a {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    padding: 8px 25px 8px 8px;
+    width: fit-content;
+    transition-duration: 0.2;
+}
+.nav-links a i {
+    font-size: 2.5rem;
+    margin-right: 15px;
+}
+
+.nav-links .icon .twitter {
+    width: fit-content;
+}
+.nav-links .twitter i {
+    font-size: 3rem;
+}
+.nav-links a:hover{
+    background-color: #2f3336;
+    border-radius: 15px;
+}
+.nav-links a:first-child {
+    padding: 8px 8px;
+}
+.nav-links a:first-child i {
+    margin: 0;
+}
+/*Tweet Botton*/
+.tweet-button {
+    background-color: #1d9bf0;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #fff;
+    height: 55px;
+    width: 100%;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+
+} 
+.tweet-button:hover {
+    background-color: #1879b9;
+}
+/* End Upper Nav*/
+/* Start Lower Nav*/
+.main-account {
+    width: 100%;
+    height: 40%;
+    padding-top: 320px;
+}
+.main-account a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 10px 8px 15px;
+    border-radius: 20px;
+}
+.main-account a:hover {
+    background-color: #212325 ;
+}
+.tweet-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.main-account  a .main-info {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 70%;
+    font-size: 1.1rem;
+    margin-right: 5px;
+}
+/* End Lower Nav*/
+main {
+    width: 71%;
+    height: 100%;
+    margin-left: 29%;
+}
